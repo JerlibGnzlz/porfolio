@@ -11,7 +11,12 @@
 }
 
 .scrolling {
-  background-color: #013711;
+  background: rgb(41, 41, 41);
+  background: linear-gradient(
+    0deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(60, 79, 15, 1) 100%
+  );
   transition: all 0.5s ease;
 }
 

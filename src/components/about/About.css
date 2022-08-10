@@ -1,6 +1,12 @@
 .about-container {
   display: flex;
-  background-color: #002000;
+
+  background: rgb(41, 41, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(118, 137, 12, 1) 100%
+  );
   color: white;
   height: 70vh;
   padding: 100px, 0, 100px, 0;

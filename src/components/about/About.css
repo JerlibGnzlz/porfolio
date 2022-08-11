@@ -4,8 +4,8 @@
   background: rgb(41, 41, 41);
   background: linear-gradient(
     90deg,
-    rgba(41, 41, 41, 1) 0%,
-    rgba(118, 137, 12, 1) 100%
+    rgb(124, 19, 19) 0%,
+    rgb(4, 173, 142) 100%
   );
   color: white;
   height: 70vh;
@@ -18,21 +18,59 @@
   justify-content: center;
   width: 55%;
   padding: 0 100px 0 100px;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .about-description > h3 {
   margin-bottom: 30px;
   font-size: 28px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .about-description > p {
   line-height: 1.5;
+  text-shadow: 2px 2px 5px #000000;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .about-img {
-  height: 100%;
-  width: 50%;
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+  height: 80%;
+  width: 28%;
   display: flex;
   align-self: center;
   overflow: hidden;
+  border-radius: 50%;
+  border-style: ridge;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 960px) {
+  .about-container {
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+  }
+
+  .about-desc {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 50px 20px;
+  }
+
+  .about-desc > h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-img > img {
+    width: 100%;
+  }
 }

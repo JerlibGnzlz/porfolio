@@ -8,7 +8,7 @@ const slidesInfo = [
     desc: "Video-App",
   },
   {
-    src: "https://blog.interdominios.com/wp-content/2008/Requisitos-legales-para-tu-tienda-online.jpg",
+    src: "https://www.a2system.net/es/wp-content/uploads/sites/3/2020/03/computadora-desarrollo-web.png",
     alt: "Project 2",
     desc: "E-Free Style Store",
   },

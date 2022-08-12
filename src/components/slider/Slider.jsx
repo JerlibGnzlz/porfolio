@@ -15,16 +15,16 @@ const Slider = () => {
         arrows
         slidesPerPage={3}
         infinite
-        animationSpeed={200}
+        animationSpeed={500}
         centerd
-        offset={50}
-        itemWidth={400}
+        offset={100}
+        itemWidth={300}
         slides={Slides}
         breakpoints={{
           960: {
             slidesPerPage: 1,
             arrows: false,
-            itemWidth: 250,
+            itemWidth: 400,
           },
         }}
       />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import foto from "../../media/jj.jpeg";
+import foto from "../../media/jjs.png";
 
 const About = () => {
   return (
@@ -14,12 +14,12 @@ const About = () => {
           <br></br> Mis habilidades tecnicas estan orientadas a tecnologias
           como:<br></br>
           <strong>
-            HTML5 | CSS3 | Javascript | Github | React | Redux | NodeJs |
-            Express | Sequelize | Postgres | MongoDb 🚀.
+            HTML5 | CSS3 | Javascript | Github | React | Redux |<br></br> NodeJs
+            | Express | Sequelize | Postgres | MongoDb 🚀.
           </strong>
           <br></br>
           <br></br>
-          entre mis habilidades blandas encontraras: <br></br>Proactividad,
+          Entre mis habilidades blandas encontraras: <br></br>Proactividad,
           Sociabilidad, Colaboracion, Curiosidad y continuo aprendizaje.
         </p>
       </div>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h2>Jerlib Gonzalez</h2>
+        {/* <h2>Jerlib Gonzalez</h2> */}
         <p>🇦🇷 Argentina - Buenos Aires </p>
       </div>
       <div className="footer-contact">

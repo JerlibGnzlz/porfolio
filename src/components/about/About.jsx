@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import foto from "../../media/jjs.png";
+import cv from "../../media/cv.pdf";
 
 const About = () => {
   return (
@@ -22,6 +23,13 @@ const About = () => {
           Entre mis habilidades blandas encontraras: <br></br>Proactividad,
           Sociabilidad, Colaboracion, Curiosidad y continuo aprendizaje.
         </p>
+      </div>
+      <div className="cv">
+        <a href={cv} download="cv.pdf">
+          {/* <i className="fa-solid fa-file-pdf"></i> */}
+          <i className="fa-solid fa-download"></i>
+          Download-CV
+        </a>
       </div>
       <div className="about-img">
         <img src={foto} alt="about"></img>

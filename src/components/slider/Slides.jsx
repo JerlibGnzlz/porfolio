@@ -3,11 +3,11 @@ import "./Slider.css";
 
 const slidesInfo = [
   {
-    src: "https://i.pinimg.com/564x/38/8b/57/388b577ab7bd64c38019d0603352d9c8.jpg",
+    src: "https://i.ibb.co/rZmZVSP/videoapp.jpg",
     desc: "Video-App",
   },
   {
-    src: "https://i.pinimg.com/564x/a4/cb/c7/a4cbc7ed47ec7c7caf096cd3288ad743.jpg",
+    src: "https://i.ibb.co/HBGMBdv/fss.jpg",
     alt: "Ecommerce",
     // desc: "Ecommerce",
   },

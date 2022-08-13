@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h1>Jerlib Gonzalez</h1>
-        <p>Argentina</p>
-        <div className="footer-contact">
-          <h3>Contactame</h3>
-          <p>Ponte a trabajar</p>
-        </div>
-        <div className="footer-sns">
-          <div className="footer-desig-by">Diseñado por Jerlib Gonzalez</div>
-        </div>
+        {/* <h2>Jerlib Gonzalez</h2> */}
+        <p>🇦🇷 Argentina - Buenos Aires </p>
+      </div>
+      <div className="footer-contact">
+        <h3>Contactame</h3>
+        <p>Y comencemos a trabajar.!</p>
+      </div>
+      <div className="footer-sns">
+        <div className="footer-desig-by"></div>
         <div className="sns-link">
           <a href="https://www.linkedin.com/in/jerlibgnzlz/" target="_black">
             <i className="fab fa-linkedin linkedin"></i>

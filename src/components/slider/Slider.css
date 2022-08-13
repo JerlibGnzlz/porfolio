@@ -2,20 +2,23 @@
   display: flex;
   vertical-align: center;
   align-items: center;
-  background-color: #3d1a86;
-  padding: 20px 0 20px 0;
+  background: linear-gradient(60deg, rgb(29, 29, 29) 30%, rgb(223, 176, 4) 70%);
+  color: rgb(251, 244, 244);
+  padding: 10px 20px 20px 0px;
 }
 
 .carousel-title {
-  color: white;
-  width: 27%;
+  color: rgb(144, 1, 1);
+  text-shadow: 4px 3px 4px #000000;
+  width: 40%;
   text-align: center;
-  font-size: 30px;
-  padding: 0 100px 0 100px;
+  font-size: 40px;
+  padding: 0 40px 0 50px;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .slide-container {
-  height: 80%;
+  height: 400px;
   border-radius: 40px;
   overflow: hidden;
   position: relative;
@@ -24,6 +27,7 @@
 
 .slide-container > img {
   object-fit: contain;
+  height: 100%;
   transition: all 0.6s ease-in-out;
 }
 
@@ -37,17 +41,27 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 70%;
-  padding-left: 30px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-left: 10px;
   border-top-left-radius: 20px;
-  opacity: 0.8;
+  opacity: 0.7;
+}
+
+.slide-desc > a {
+  text-decoration: none;
+  color: white;
 }
 
 .slide-desc > span {
-  color: white;
+  color: rgb(101, 225, 6);
+  text-shadow: 4px 3px 4px #ffffff;
   display: block;
-  font-size: 22px;
-  padding: 10px 0 10px 10px;
+  font-size: 100%;
+  height: 40px;
+  /* padding: 10px 10px 10px 10px; */
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .BrainhubCarousel__arrows {
@@ -56,13 +70,27 @@
 }
 
 .BrainhubCarousel__arrows > span {
-  border-color: black;
+  border-color: rgb(90, 173, 0);
 }
 
 .BrainhubCarousel__arrows:hover {
-  background-color: white !important;
+  background-color: rgb(153, 208, 5) !important;
 }
 
 .BrainhubCarousel__arrows:hover {
-  background-color: black !important;
+  background-color: rgb(0, 5, 96) !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+  .carousel-title {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
+  }
+  .slide-container {
+    width: 100%;
+  }
 }

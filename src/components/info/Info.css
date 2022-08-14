@@ -15,18 +15,56 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  text-shadow: 0 0 3px #fcf9f9;
+  height: 50%;
+  font-size: 0.9rem;
   font-family: "Nanum Gothic", sans-serif;
+
+  position: relative;
+  -webkit-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+  -moz-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+  box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+}
+/* herramientas con las que trabajo  */
+.info > image {
+  height: 100px;
+  width: 80px;
+  align-self: flex-start;
+  box-shadow: 0 0 50px rgb(0, 0, 135);
 }
 
+.image > img {
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  padding-left: 3px;
+  margin: 4px;
+  position: relative;
+  -webkit-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+  -moz-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+  box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
+  transition: all 0.6s ease-in-out;
+}
+
+.texto > h1 {
+  margin: 10px;
+  transition: all 0.6s ease-in-out;
+  color: rgb(15, 55, 90);
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px rgb(50, 30, 30);
+}
+
+/* herramientas con las que trabajo */
 @media only screen and (max-width: 960px) {
   .info-container {
     height: 200px;
     width: 100%;
   }
+
   .info > h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
   }
 }

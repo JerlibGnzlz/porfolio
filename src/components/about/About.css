@@ -27,6 +27,8 @@
   line-height: 1.5;
   text-shadow: 2px 2px 5px #000000;
   font-family: "Nanum Gothic", sans-serif;
+  width: 610px;
+  height: 220px;
 }
 
 .about-img {

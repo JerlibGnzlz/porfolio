@@ -23,15 +23,24 @@
   text-align: center;
   text-shadow: 2px 2px 5px #03f82c;
   font-family: "Inspiration", cursive;
+  width: 700px;
+  height: 200px;
+  background: #fff;
+  margin: 60px auto;
+  opacity: 0.2;
+  z-index: 0;
+  border-radius: 30px;
 }
 
 .cover-container > p {
-  color: rgb(255, 217, 27);
-  padding-left: 25%;
-  margin-top: 10px;
-  font-size: 25px;
-  text-shadow: 2px 2px 5px #000000;
+  color: rgb(255, 255, 255);
+  padding-left: center;
+  margin-top: 12px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px #087eed;
   font-family: "Rubik Iso", cursive;
+  /* font-family: "Inspiration", cursive; */
+  letter-spacing: 0.4em;
 }
 
 @media screen and (max-width: 960px) {

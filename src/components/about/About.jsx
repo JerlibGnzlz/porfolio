@@ -32,7 +32,7 @@ const About = () => {
         </a>
       </div>
       <div className="about-img">
-        <img src={foto} alt="about"></img>
+        <img src={foto} alt="about" />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "./Cover.css";
 import coverVideo from "../../media/coverVideo.mp4";
 
-const nombre = "<jerlibGonzalez/>";
+const nombre = "<Jerlib Gonzalez/>";
 const Cover = () => {
   return (
     <div className="cover-container">

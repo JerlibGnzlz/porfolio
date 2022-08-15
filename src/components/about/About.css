@@ -2,8 +2,8 @@
   display: flex;
   background: linear-gradient(100deg, rgb(19, 62, 173) 0%, rgb(0, 0, 0) 60%);
   color: rgb(251, 244, 244);
-  height: 70vh;
-  padding: 100px, 0, 100px, 0;
+  height: 100vh;
+  padding: 10px 0px;
 }
 
 .about-description {
@@ -32,17 +32,19 @@
 }
 
 .about-img {
-  height: 70%;
-  width: 19%;
+  height: 200px;
+  width: 200px;
   display: flex;
   align-self: center;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 0 50px rgb(0, 0, 135);
+  /* border: 1px solid red; */
 }
 .about-img > img {
   width: 100%;
-  height: 100%;
 }
 
 @media only screen and (max-width: 960px) {
@@ -64,7 +66,8 @@
   }
 
   .about-img {
-    width: 50%;
+    width: 400px;
+    height: 400px;
     margin-bottom: 50px;
   }
 

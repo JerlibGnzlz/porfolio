@@ -21,26 +21,34 @@
   font-size: 150px;
   margin: 0 auto;
   text-align: center;
-  text-shadow: 2px 2px 5px #03f82c;
+  text-shadow: 5px 5px 1px #03f82c;
   font-family: "Inspiration", cursive;
-  width: 700px;
-  height: 200px;
-  background: #fff;
-  margin: 60px auto;
+  width: 800px;
+  height: 100px;
+  background: rgb(88, 72, 72);
+  margin: 30px auto;
   opacity: 0.2;
-  z-index: 0;
+  z-index: 1;
   border-radius: 30px;
 }
 
 .cover-container > p {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 249, 249);
   padding-left: center;
-  margin-top: 12px;
+  margin-top: 4px;
   font-size: 30px;
   text-shadow: 2px 2px 5px #087eed;
   font-family: "Rubik Iso", cursive;
   /* font-family: "Inspiration", cursive; */
-  letter-spacing: 0.4em;
+  letter-spacing: 0.5em;
+  /* background: rgb(88, 72, 72); */
+  /* margin: 60px auto; */
+  /* opacity: 0.2; */
+  z-index: 1;
+  border-radius: 50px;
+  /* width: 200px; */
+  height: 40px;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {

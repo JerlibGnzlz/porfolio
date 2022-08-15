@@ -1,13 +1,15 @@
 import React from "react";
 import "./Slider.css";
+import fss from "../../media/imagenes/fss.jpg";
+import videoapp from "../../media/imagenes/videoapp.jpg";
 
 const slidesInfo = [
   {
-    src: "https://i.ibb.co/rZmZVSP/videoapp.jpg",
+    src: fss,
     desc: "Video-App",
   },
   {
-    src: "https://i.ibb.co/HBGMBdv/fss.jpg",
+    src: videoapp,
     alt: "Ecommerce",
     // desc: "Ecommerce",
   },

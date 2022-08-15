@@ -22,42 +22,55 @@ const Info = () => {
       <div className="info">
         <div className="image">
           <img src={vs} alt="img"></img>
+          <p>Visual Studio</p>
         </div>
         <div className="image">
           <img src={html} alt="img"></img>
+          <p>Html</p>
         </div>
         <div className="image">
           <img src={css} alt="img"></img>
+          <p>CSS3</p>
         </div>
         <div className="image">
           <img src={js} alt="img"></img>
+          <p>Javascript</p>
         </div>
         <div className="image">
           <img src={react} alt="img"></img>
+          <p>React</p>
         </div>
         <div className="image">
           <img src={redux} alt="img"></img>
+          Redux
         </div>
         <div className="image">
           <img src={node} alt="img"></img>
+          <p>NodeJs</p>
         </div>
         <div className="image">
           <img src={express} alt="img"></img>
+          <p>Express</p>
         </div>
         <div className="image">
           <img src={pg} alt="img"></img>
+          <p>Postgres</p>
         </div>
         <div className="image">
           <img src={sc} alt="img"></img>
+          <p>Secuelize</p>
         </div>
         <div className="image">
           <img src={mdb} alt="img"></img>
+          MongoDb
         </div>
         <div className="image">
           <img src={g} alt="img"></img>
+          GitHub
         </div>
         <div className="image">
           <img src={linux} alt="img"></img>
+          Debian
         </div>
         <div className="texto">
           <h1>{tecnologia}</h1>

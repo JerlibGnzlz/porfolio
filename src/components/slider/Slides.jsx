@@ -6,11 +6,11 @@ import videoapp from "../../media/imagenes/videoapp.jpg";
 const slidesInfo = [
   {
     src: fss,
-    desc: "Video-App",
+    alt: "Ecommerce",
   },
   {
     src: videoapp,
-    alt: "Ecommerce",
+    desc: "Video-App",
     // desc: "Ecommerce",
   },
 ];

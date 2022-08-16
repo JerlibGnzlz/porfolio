@@ -6,9 +6,10 @@
     rgb(29, 29, 29) 34%,
     rgb(223, 176, 4) 80%
   );
-  color: rgb(88, 86, 55);
+  color: rgb(0, 0, 0);
   margin-bottom: 100vh;
   font-size: 25px;
+  text-shadow: 2px 2px 5px #ffffff;
 }
 
 .info {
@@ -16,8 +17,9 @@
   justify-content: center;
   align-items: center;
   height: 50%;
-  font-size: 0.9rem;
+  font-size: 0.3rem;
   font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
 
   position: relative;
   -webkit-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
@@ -28,7 +30,7 @@
 .info > image {
   height: 100px;
   width: 80px;
-  align-self: flex-start;
+  /* align-self: flex-start; */
   box-shadow: 0 0 50px rgb(0, 0, 135);
 }
 
@@ -36,17 +38,40 @@
   display: inline-flex;
   border-radius: 50%;
   overflow: hidden;
-  width: 60px;
-  height: 60px;
-  padding-left: 3px;
-  margin: 4px;
+  width: 50px;
+  height: 40px;
+  padding-left: 6px;
+  margin: 13px;
   position: relative;
   -webkit-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
   -moz-box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
   box-shadow: 0 0px 4px #777, 0 0 20px #ccc inset;
   transition: all 0.6s ease-in-out;
+  transition: 0.5s;
+  opacity: 2;
 }
 
+.image:hover p {
+  background-color: rgb(0, 0, 0);
+  visibility: visible;
+  opacity: 1;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 6px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  transition: all 0.6s ease-in-out;
+  text-transform: 20px;
+}
+
+.image p {
+  transition: 0.5s;
+  visibility: visible;
+  opacity: 0;
+}
 .texto > h1 {
   margin: 10px;
   transition: all 0.6s ease-in-out;

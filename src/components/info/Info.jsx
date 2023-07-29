@@ -13,6 +13,9 @@ import mdb from "../../media/imagenes/mdb.png";
 import g from "../../media/imagenes/g.png";
 import linux from "../../media/imagenes/li.png";
 import vs from "../../media/imagenes/vs.png";
+import type from "../../media/imagenes/type.png";
+import jwt from "../../media/imagenes/jwt.png";
+
 
 // const tecnologia = "Tecnologias que Utilizo. ";
 
@@ -37,6 +40,10 @@ const Info = () => {
           <p>Javascript</p>
         </div>
         <div className="image">
+          <img src={type} alt="img"></img>
+          <p>Typescript</p>
+        </div>
+        <div className="image">
           <img src={react} alt="img"></img>
           <p>React</p>
         </div>
@@ -51,6 +58,10 @@ const Info = () => {
         <div className="image">
           <img src={express} alt="img"></img>
           <p>Express</p>
+        </div>
+        <div className="image">
+          <img src={jwt} alt="img"></img>
+          <p>JsonWebToken</p>
         </div>
         <div className="image">
           <img src={pg} alt="img"></img>

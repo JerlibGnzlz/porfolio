@@ -2,6 +2,7 @@ import React from "react";
 import "./Slider.css";
 import fss from "../../media/imagenes/fss.jpg";
 import videoapp from "../../media/imagenes/videoapp.jpg";
+import fcg from "../../media/imagenes/fcg.png";
 
 const slidesInfo = [
   {
@@ -11,6 +12,11 @@ const slidesInfo = [
   {
     src: videoapp,
     desc: "Video-App",
+    // desc: "Ecommerce",
+  },
+  {
+    src: fcg,
+    a: "Fitness Center Gym",
     // desc: "Ecommerce",
   },
 ];
@@ -25,6 +31,9 @@ const slides = slidesInfo.map((slide) => (
       </a>
       <a href="https://free-style-store.vercel.app/" target="_black">
         {slide.alt}
+      </a>
+      <a href="https://fit-center-gym.vercel.app/" target="_black">
+        {slide.a}
       </a>
     </div>
   </div>

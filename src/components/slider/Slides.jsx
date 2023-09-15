@@ -40,10 +40,10 @@ const slides = slidesInfo.map((slide) => (
     <div className="slide-desc">
       {/* <span>{slide.desc}</span> */}
       <a href="https://videos-app-ten.vercel.app/" target="_black">
-        {slide.a}
+        {slide.b}
       </a>
       <a href="https://free-style-store.vercel.app/" target="_black">
-        {slide.b}
+        {slide.a}
       </a>
       <a href="https://fit-center-gym.vercel.app/" target="_black">
         {slide.c}

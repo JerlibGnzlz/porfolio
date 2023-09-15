@@ -15,8 +15,8 @@ const About = () => {
           <br></br> Mis habilidades tecnicas estan orientadas a tecnologias
           como:<br></br>
           <strong>
-            HTML5 | CSS3 | Javascript | Github | React | Redux |<br></br> NodeJs
-            | Express | Sequelize | Postgres | MongoDb 🚀.
+            HTML5 | CSS3 | Javascript | Typescript | Github | React | Redux |<br></br> NodeJs
+            | Express | Sequelize | Postgres | MongoDb | Scrum | jira | dart | flutter | Linux distros debian | Stack: MERN - PERN 🚀.
           </strong>
           <br></br>
           <br></br>

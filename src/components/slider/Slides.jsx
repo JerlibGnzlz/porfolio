@@ -10,27 +10,27 @@ import cnt from "../../media/imagenes/connecta.png";
 const slidesInfo = [
   {
     src: fss,
-    alt: "Ecommerce",
+    a: "Ecommerce",
   },
   {
     src: videoapp,
-    desc: "Video-App",
-    // desc: "Ecommerce",
+    b: "Video-App",
+
   },
   {
     src: fcg,
-    a: "Fitness Center Gym",
-    // desc: "Ecommerce",
+    c: "Fitness Center Gym",
+
   },
   {
     src: csj,
-    b: "Coop. San Jose",
-    // desc: "Ecommerce",
+    d: "Coop. San Jose",
+
   },
   {
     src: cnt,
-    b: "Connecta",
-    // desc: "Ecommerce",
+    e: "Connecta",
+
   },
 ];
 
@@ -40,19 +40,19 @@ const slides = slidesInfo.map((slide) => (
     <div className="slide-desc">
       {/* <span>{slide.desc}</span> */}
       <a href="https://videos-app-ten.vercel.app/" target="_black">
-        {slide.desc}
-      </a>
-      <a href="https://free-style-store.vercel.app/" target="_black">
-        {slide.alt}
-      </a>
-      <a href="https://fit-center-gym.vercel.app/" target="_black">
         {slide.a}
       </a>
-      <a href="https://stagging-csj.vercel.app/auth/" target="_black">
+      <a href="https://free-style-store.vercel.app/" target="_black">
         {slide.b}
       </a>
+      <a href="https://fit-center-gym.vercel.app/" target="_black">
+        {slide.c}
+      </a>
+      <a href="https://stagging-csj.vercel.app/auth/" target="_black">
+        {slide.d}
+      </a>
       <a href="https://connecta-v1.vercel.app/" target="_black">
-        {slide.b}
+        {slide.e}
       </a>
     </div>
   </div>

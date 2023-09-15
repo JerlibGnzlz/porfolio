@@ -4,6 +4,8 @@ import fss from "../../media/imagenes/fss.jpg";
 import videoapp from "../../media/imagenes/videoapp.jpg";
 import fcg from "../../media/imagenes/fcg.png";
 import csj from "../../media/imagenes/csj.png";
+import cnt from "../../media/imagenes/connecta.png";
+
 
 const slidesInfo = [
   {
@@ -25,6 +27,11 @@ const slidesInfo = [
     b: "Coop. San Jose",
     // desc: "Ecommerce",
   },
+  {
+    src: cnt,
+    b: "Connecta",
+    // desc: "Ecommerce",
+  },
 ];
 
 const slides = slidesInfo.map((slide) => (
@@ -42,6 +49,9 @@ const slides = slidesInfo.map((slide) => (
         {slide.a}
       </a>
       <a href="https://stagging-csj.vercel.app/auth/" target="_black">
+        {slide.b}
+      </a>
+      <a href="https://connecta-v1.vercel.app/" target="_black">
         {slide.b}
       </a>
     </div>

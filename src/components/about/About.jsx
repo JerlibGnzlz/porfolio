@@ -1,7 +1,7 @@
 
 import "./About.css";
 import foto from "../../media/jjf.png";
-import cv from "../../media/CVBK.pdf";
+import cv from "../../media/CVBklast.pdf";
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
         </p>
       </div>
       <div className="cv">
-        <a href={cv} download="CVBK.pdf">
+        <a href={cv} download="CVBklast.pdf">
           {/* <i className="fa-solid fa-file-pdf"></i> */}
           <i className="fa-solid fa-download"></i>
           Download-CV

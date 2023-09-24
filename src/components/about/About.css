@@ -11,12 +11,12 @@
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  padding: 10px 50px 10px 100px;
+  padding: 10px 10px;
   font-family: "Nanum Gothic", sans-serif;
 }
 
 .about-description > h3 {
-  margin-bottom: 30px;
+  margin-bottom: 40px 40px;
   font-size: 28px;
   color: rgb(255, 187, 187);
   text-shadow: 2px 2px 4px #000000;
@@ -29,6 +29,7 @@
   font-family: "Nanum Gothic", sans-serif;
   width: 610px;
   height: 220px;
+  margin: 10px;
 }
 
 .about-img {
@@ -43,9 +44,50 @@
   box-shadow: 0 0 50px rgb(0, 0, 135);
   /* border: 1px solid red; */
 }
+
 .about-img > img {
   width: 100%;
 }
+
+.fa-solid {
+  margin: 10px;
+}
+
+.cv a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    /*margin: 5 auto;
+    */height: 100px;
+    padding: 10px;
+      box-shadow: 0 0 50px rgb(0, 0, 135);
+  background: linear-gradient(45deg, #4CAF50, #008CBA);
+    margin: 30px  auto;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+
+  }
+  
+  .cv a:hover{
+    /* background-color: #78e123; */
+    color:#000000;
+    /* font-size: 20px; */
+    /* transition: background-color 0.3s ease; */
+    background: linear-gradient(45deg, #008CBA, #4CAF50);
+      /* Nuevo degradado en hover */
+      /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+      box-shadow: 0 0 50px rgb(40, 85, 43);
+}
+
+
 
 @media only screen and (max-width: 960px) {
   .about-container {

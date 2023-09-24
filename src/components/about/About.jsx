@@ -26,9 +26,8 @@ const About = () => {
       </div>
       <div className="cv">
         <a href={cv} download="CVBklast.pdf">
-          {/* <i className="fa-solid fa-file-pdf"></i> */}
           <i className="fa-solid fa-download"></i>
-          Download-CV
+          Descargar Currículum
         </a>
       </div>
       <div className="about-img">

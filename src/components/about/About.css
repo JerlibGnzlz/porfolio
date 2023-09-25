@@ -4,6 +4,7 @@
   color: rgb(251, 244, 244);
   height: 100vh;
   padding: 10px 0px;
+
 }
 
 .about-description {
@@ -53,28 +54,33 @@
   margin: 10px;
 }
 
-.cv a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 20px;
-    /*margin: 5 auto;
-    */height: 100px;
-    padding: 10px;
-      box-shadow: 0 0 50px rgb(0, 0, 135);
-  background: linear-gradient(45deg, #4CAF50, #008CBA);
-    margin: 30px  auto;
-    border-radius: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    -ms-border-radius: 60px;
-    -o-border-radius: 60px;
-    transition: background-color 0.3s ease;
-    -webkit-transition: background-color 0.3s ease;
-    -moz-transition: background-color 0.3s ease;
-    -ms-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
 
-  }
+.cv{
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+
+}
+.cv a {
+
+      text-decoration: none;
+      color: #000000;
+      font-size:12px;
+      padding: 5px;
+      box-shadow: 0 0 50px rgb(0, 0, 135);
+      background: linear-gradient(45deg, #4CAF50, #008CBA);
+      margin: 10px ;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+      -webkit-transition: background-color 0.3s ease;
+      -moz-transition: background-color 0.3s ease;
+      -ms-transition: background-color 0.3s ease;
+      -o-transition: background-color 0.3s ease;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
   
   .cv a:hover{
     /* background-color: #78e123; */
@@ -82,7 +88,7 @@
     /* font-size: 20px; */
     /* transition: background-color 0.3s ease; */
     background: linear-gradient(45deg, #008CBA, #4CAF50);
-      /* Nuevo degradado en hover */
+    /* Nuevo degradado en hover */
       /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
       box-shadow: 0 0 50px rgb(40, 85, 43);
 }

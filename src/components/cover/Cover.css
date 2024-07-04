@@ -16,48 +16,43 @@
   position: absolute;
   z-index: -1;
 }
-.cover-container > h1 {
-  color: #000000;
+
+.cover-container>h1 {
+  color: #FFF;
   font-size: 150px;
-  margin: 0 auto;
   text-align: center;
-  text-shadow: 5px 5px 1px #03f82c;
+  text-shadow: 5px 5px 1px #020747;
   font-family: "Inspiration", cursive;
   width: 800px;
   height: 100px;
-  background: rgb(88, 72, 72);
+  background: -webkit-linear-gradient(90deg, #ffffff, #70d2ff, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #ffffff, #70d2ff, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 30px auto;
-  opacity: 0.2;
+  opacity: 0.5;
   z-index: 1;
-  border-radius: 30px;
 }
 
-.cover-container > p {
-  color: rgb(255, 249, 249);
-  padding-left: center;
-  margin-top: 4px;
-  font-size: 30px;
-  text-shadow: 2px 2px 5px #087eed;
-  font-family: "Rubik Iso", cursive;
-  /* font-family: "Inspiration", cursive; */
+.cover-container>p {
+  margin-top: 10px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px #ff009d;
   letter-spacing: 0.5em;
-  /* background: rgb(88, 72, 72); */
-  /* margin: 60px auto; */
-  /* opacity: 0.2; */
   z-index: 1;
-  border-radius: 50px;
-  /* width: 200px; */
-  height: 40px;
+  color: #F7E025;
   text-align: center;
 }
 
+
+
 @media screen and (max-width: 960px) {
-  .cover-container > h1 {
+  .cover-container>h1 {
     font-size: 70px;
     text-align: center;
   }
 
-  .cover-container > p {
+  .cover-container>p {
     text-align: center;
     font-size: 22px;
     width: 85;

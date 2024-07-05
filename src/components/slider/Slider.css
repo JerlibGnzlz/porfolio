@@ -10,7 +10,7 @@
 }
 
 .carousel-title {
-  /* margin-bottom: 300px; */
+  margin-bottom: 30px;
   display: flex;
   text-align: center;
   /* justify-content: left; */
@@ -22,10 +22,11 @@
   font-family: "Nanum Gothic", sans-serif;
 }
 
-.carousel-title > h2 {
+.carousel-title h2 {
   font-size: 40px;
   width: 100%;
-  text-align: center;
+  align-content: center;
+  /* margin: 10px; */
 }
 
 .slide-container {
@@ -39,16 +40,20 @@
   cursor: pointer;
 }
 
-.slide-container > img {
+.slide-container>img {
   object-fit: cover;
   height: 100%;
   width: 100%;
   transition: all 0.6s ease-in-out;
 }
 
-.slide-container:hover > img {
+.slide-container:hover>img {
   transform: scale(1.2);
   opacity: 0.8;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .slide-desc {
@@ -60,16 +65,16 @@
   height: 40px;
   text-align: center;
   padding-left: 10px;
-  border-top-left-radius: 20px;
+  /* border-top-left-radius: 20px; */
   opacity: 0.7;
 }
 
-.slide-desc > a {
+.slide-desc>a {
   text-decoration: none;
   color: white;
 }
 
-.slide-desc > span {
+.slide-desc>span {
   color: rgb(101, 225, 6);
   text-shadow: 4px 3px 4px #ffffff;
   display: block;
@@ -84,7 +89,7 @@
   border-radius: 50px;
 }
 
-.BrainhubCarousel__arrows > span {
+.BrainhubCarousel__arrows>span {
   border-color: rgb(90, 173, 0);
 }
 
@@ -100,11 +105,13 @@
   .carousel-container {
     flex-direction: column;
   }
+
   .carousel-title {
     width: 100%;
     text-align: center;
     padding: 50px 0 50px 0;
   }
+
   .slide-container {
     width: 100%;
   }

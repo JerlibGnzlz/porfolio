@@ -20,7 +20,7 @@
   font-family: "Nanum Gothic", sans-serif;
 }
 
-.footer-info > h2 {
+.footer-info>h2 {
   padding-bottom: 15px;
   text-align: center;
   text-shadow: 1px 2px;
@@ -36,11 +36,12 @@
   font-family: "Nanum Gothic", sans-serif;
 }
 
-.footer-contact > p {
+.footer-contact>p {
   color: #000000;
   text-shadow: 2px 2px 4px #ffffff;
 }
-.footer-contact > h3 {
+
+.footer-contact>h3 {
   height: 20px;
   color: #000000;
   text-shadow: 2px 2px 4px #ffffff;
@@ -92,6 +93,7 @@
     padding: 0;
     font-size: 20px;
   }
+
   .footer-contact {
     font-size: 16px;
     padding: 100px 0 30px 0;

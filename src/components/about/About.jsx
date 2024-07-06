@@ -9,8 +9,8 @@ const About = () => {
         <h1>Te Contare sobre mi.</h1>
 
         <h2>Soy un 🇻🇪 apasionado por la informatica radicado en 🇦🇷.</h2>
-
         <p>Mis habilidades tecnicas estan orientadas a tecnologias</p>
+
 
         <h4>
           Html5 | Css3 | Javascript | Typescript | Github | React | React
@@ -39,19 +39,14 @@ const About = () => {
 
 
 
-      {/* <div className="cv">
-        <a href={cv} download="CVBklast.pdf">
-          <i className="fa-solid fa-download"></i>
-          Descargar Currículum
-        </a>
-      </div> */}
-
 
       <div id="outer">
         <div className="button_slide slide_left">
           <a href={cv} download="CVBklast.pdf">
             <i className="fa-solid fa-download"></i>
-            Descargar Currículum
+            <p className="Curriculum">
+              Descargar Currículum
+            </p>
           </a>
         </div>
       </div>

@@ -18,23 +18,25 @@ const About = () => {
 
           <div>
             <span className="span">
-              <p>
+              <h2>
                 Stack:
-                <h2>
-                  MERN - PERN 🚀.
-                </h2>
-              </p>
+                MERN - PERN 🚀.
+              </h2>
             </span>
           </div>
         </h4>
 
         <div className="habilidades">
           <h3>
-            Entre mis habilidades blandas encontraras: Proactividad,
+            <p className="span1">
+              Entre mis habilidades blandas encontraras:
+            </p>
+            Proactividad,
             Sociabilidad, Colaboracion, Curiosidad y continuo aprendizaje.
           </h3>
         </div>
       </div>
+
 
 
       {/* <div className="cv">

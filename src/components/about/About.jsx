@@ -37,22 +37,28 @@ const About = () => {
       </div>
 
 
-      <div className="cv">
+      {/* <div className="cv">
         <a href={cv} download="CVBklast.pdf">
           <i className="fa-solid fa-download"></i>
           Descargar Currículum
         </a>
-      </div>
+      </div> */}
 
+
+      <div id="outer">
+        <div className="button_slide slide_left">
+          <a href={cv} download="CVBklast.pdf">
+            <i className="fa-solid fa-download"></i>
+            Descargar Currículum
+          </a>
+        </div>
+      </div>
 
       <div className="about-img">
         <img src={foto} alt="about" />
       </div>
 
     </div>
-
-
-
 
   );
 };

@@ -82,9 +82,7 @@
 .fa-solid {
   display: flex;
   justify-content: center;
-  /* margin: 1rem; */
-
-
+  margin: 5px;
 }
 
 
@@ -92,39 +90,44 @@
   display: flex;
   align-items: center;
   margin-top: 40px;
+  text-align: center;
 }
 
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #D80286;
+  color: #fff7f7;
+}
 
+.button_slide {
+  text-transform: uppercase;
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
 
-.cv a {
+.button_slide :hover {
+  color: #FFD700;
+  font-weight: bolder;
+}
+
+#outer,
+a {
   text-decoration: none;
-  color: #000000;
-  /* font-size: 12px; */
-  padding: 5px;
-  box-shadow: 0 0 50px rgb(0, 0, 135);
-  background: linear-gradient(45deg, #4CAF50, #008CBA);
-  /* margin: 10px; */
-  /* border-radius: 10px;
-  transition: background-color 0.3s ease;
-  -webkit-transition: background-color 0.3s ease;
-  -moz-transition: background-color 0.3s ease;
-  -ms-transition: background-color 0.3s ease;
-  -o-transition: background-color 0.3s ease;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px; */
-}
-
-.cv a:hover {
-  /* background-color: #78e123; */
-  color: #000000;
-  /* font-size: 20px; */
-  /* transition: background-color 0.3s ease; */
-  background: linear-gradient(45deg, #008CBA, #4CAF50);
-  /* Nuevo degradado en hover */
-  /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
-  box-shadow: 0 0 50px rgb(40, 85, 43);
+  color: #ffffff;
+  align-self: center;
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
 }
 
 

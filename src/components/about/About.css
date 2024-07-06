@@ -9,7 +9,7 @@
   justify-content: center;
   padding: 1rem;
   margin: 2rem;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: serif;
   border-width: 3px;
   border-style: solid;
   border-image:
@@ -25,15 +25,17 @@ h1 {
   text-align: center;
   font-weight: 900;
   margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
 
 .about-description h4 {
   text-align: justify;
-  margin: 1rem;
-  padding: 1rem;
+  /* margin: 1rem; */
+  /* padding: 1rem; */
   color: #580fe0;
-  font-family: "Nanum Gothic", sans-serif;
+
 }
 
 .span {
@@ -42,15 +44,17 @@ h1 {
 
 .span1 {
   margin: 10px;
-  /* color: #E0234E; */
+  color: #1a8a3f;
   font-size: large;
+  text-shadow: 4px 4px 6px #E0234E;
+
 }
 
 .about-description>p {
-  /* color: #00DEC4; */
-  text-shadow: 2px 2px 5px #E0234E;
-  font-family: "Nanum Gothic", sans-serif;
+  color: #1a8a3f;
+  text-shadow: 4px 4px 6px #E0234E;
   align-self: center;
+  font-family: 'Times New Roman', Times, serif;
   margin: 1rem;
   padding: 1rem;
 }
@@ -61,25 +65,23 @@ h1 {
   color: gold;
   text-align: center;
   margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .habilidades>h3 {
-  /* color: #000000; */
-  /* border: #00DEC4; */
-  /* background-color: #4CAF50; */
-  text-shadow: 1px 2px #E0234E;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
 
 .about-img {
-  height: 15rem;
-  width: 400px;
+  /* height: 15rem; */
+  /* width: 400px; */
   display: flex;
   align-self: center;
   overflow: hidden;
   border-radius: 10%;
   box-shadow: rgba(96, 86, 86, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(246, 199, 199, 0.17) 0px 12px 13px, rgba(56, 40, 40, 0.09) 0px -3px 5px;
-
   margin: 2rem;
 }
 
@@ -100,6 +102,7 @@ h1 {
   align-items: center;
   margin-top: 40px;
   text-align: center;
+
 }
 
 .slide_left:hover {
@@ -133,10 +136,11 @@ h1 {
 #outer,
 a {
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
   color: #ffffff;
   align-self: center;
   width: 364px;
-  margin: 50px auto 0 auto;
+  margin: 20px auto 0 auto;
   text-align: center;
 }
 
@@ -160,13 +164,38 @@ a {
     text-align: center;
   }
 
+  #outer a {
+    /* margin: 5px; */
+    width: 40px;
+    height: 30px;
+  }
+
+  .button_slide i {
+    font-size: 8px;
+    width: 10px;
+
+  }
+
+  .Curriculum,
+  p {
+    padding: 2px;
+    margin: 2px;
+    font-size: 8px;
+  }
+
+  .slide_left {
+    width: 100px;
+    height: 70px;
+  }
+
   .about-img {
-    width: 400px;
-    height: 400px;
+    width: 150px;
+    height: 200px;
     margin-bottom: 50px;
   }
 
   .about-img>img {
     width: 100%;
   }
+
 }

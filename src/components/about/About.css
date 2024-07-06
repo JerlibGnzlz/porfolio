@@ -1,15 +1,11 @@
 .about-container {
   display: flex;
-  background: hwb(163 2% 96%);
+  background: hwb(163 1% 96%);
   color: #F3F3F4;
   height: 100vh;
 }
 
 .about-description {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  justify-content: right;
-  /* margin: 1rem; */
   justify-content: center;
   padding: 1rem;
   margin: 2rem;
@@ -18,47 +14,60 @@
   border-style: solid;
   border-image:
     linear-gradient(to bottom,
-      red,
+      #E0234E,
       rgba(0, 0, 0, 0)) 1 100%;
 }
+
+.about-description,
+h1 {
+  color: #ffffff;
+  box-shadow: #00DEC4;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
 
 .about-description h4 {
   text-align: justify;
   margin: 1rem;
   padding: 1rem;
-  /* color: #21005D; */
-  text-shadow: 2px 1px #21005D;
+  color: #580fe0;
   font-family: "Nanum Gothic", sans-serif;
-  border-radius: 35px 35px 35px 35px;
-  -moz-border-radius: 35px 35px 35px 35px;
-  -webkit-border-radius: 35px 35px 35px 35px;
-  border: 0px solid #000000;
-  -webkit-box-shadow: inset 15px 10px 35px 14px rgba(0, 0, 0, 0.74);
-  -moz-box-shadow: inset 15px 10px 35px 14px rgba(0, 0, 0, 0.74);
-  box-shadow: inset 15px 10px 35px 14px rgba(0, 0, 0, 0.74);
 }
 
+.span {
+  margin: 10px;
+}
 
-.about-description p {
-  color: #00DEC4;
-  line-height: 2;
-  text-shadow: 2px 2px 5px #000000;
+.span1 {
+  margin: 10px;
+  /* color: #E0234E; */
+  font-size: large;
+}
+
+.about-description>p {
+  /* color: #00DEC4; */
+  text-shadow: 2px 2px 5px #E0234E;
   font-family: "Nanum Gothic", sans-serif;
   align-self: center;
   margin: 1rem;
   padding: 1rem;
-
-
 }
+
 
 .span h2 {
   font-size: x-large;
   color: gold;
+  text-align: center;
+  margin: 10px;
 }
 
-.habilidades p {
-  color: #000000;
-  background-color: #4CAF50;
+.habilidades>h3 {
+  /* color: #000000; */
+  /* border: #00DEC4; */
+  /* background-color: #4CAF50; */
+  text-shadow: 1px 2px #E0234E;
 }
 
 
@@ -94,14 +103,15 @@
 }
 
 .slide_left:hover {
-  box-shadow: inset 0 0 0 50px #D80286;
+  box-shadow: inset 0 0 0 50px #E0234E;
   color: #fff7f7;
 }
 
 .button_slide {
   text-transform: uppercase;
   color: #FFF;
-  border: 2px solid rgb(216, 2, 134);
+  /* border: 2px solid rgb(216, 2, 134); */
+  border: solid #E0234E;
   border-radius: 0px;
   padding: 10px;
   display: inline-block;
@@ -109,7 +119,7 @@
   font-size: 12px;
   letter-spacing: 3px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #D80286;
+  box-shadow: inset 0 0 0 0 #E0234E;
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;

@@ -30,8 +30,11 @@ const slidesInfo = [
   {
     src: cnt,
     e: "Connecta",
-
   },
+  // {
+  //   src: adm,
+  //   e: "Admin Productos",
+  // },
 ];
 
 const slides = slidesInfo.map((slide) => (
@@ -52,6 +55,9 @@ const slides = slidesInfo.map((slide) => (
         {slide.d}
       </a>
       <a href="https://connecta-v1.vercel.app/" target="_black">
+        {slide.e}
+      </a>
+      <a href="https://admin-product-frontend.vercel.app/" target="_black">
         {slide.e}
       </a>
     </div>

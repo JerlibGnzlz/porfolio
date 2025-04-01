@@ -1,6 +1,6 @@
 import "./About.css";
 import foto from "../../media/nueva.png";
-import cv from "../../media/FS.pdf";
+import cv from "../../media/fullStack.pdf";
 
 const About = () => {
   return (
@@ -42,7 +42,7 @@ const About = () => {
 
       <div id="outer">
         <div className="button_slide slide_left">
-          <a href={cv} download="CVBklast.pdf">
+          <a href={cv} download="fullStack.pdf">
             <i className="fa-solid fa-download"></i>
             <p className="Curriculum">
               Descargar Currículum
